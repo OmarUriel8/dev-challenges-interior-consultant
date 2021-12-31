@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body {
+	background-color: #181719;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+/* 
+
+font-family: 'Crimson Pro', serif;
+font-family: 'Lora', serif;
+
+
+*/
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.overflow-hidden {
+	height: 100vh;
+	overflow: hidden;
+}
